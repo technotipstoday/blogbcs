@@ -1,3 +1,14 @@
+# Blog App
+
+```
+pnpx create-next-app@latest myblog
+cd myblog
+pnpm install
+mkdir -p app/admin/api app/admin/login app/api/auth app/api/posts app/components
+
+``
+
+## Standard Stuff
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
 ## Getting Started
