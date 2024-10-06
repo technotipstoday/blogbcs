@@ -17,7 +17,7 @@ export default function PostForm({ isEditing, currentPost, setIsEditing, setPost
         e.preventDefault();
         const token = localStorage.getItem('token');
         const method = isEditing ? 'PUT' : 'POST';
-        const endpoint = isEditing ? `/api/posts/${currentPost.id}` : '/api/posts';
+        const endpoint = isEditing ? `/api/admin/posts/${currentPost.id}` : '/api/admin/posts';
 
         const res = await fetch(endpoint, {
             method,
